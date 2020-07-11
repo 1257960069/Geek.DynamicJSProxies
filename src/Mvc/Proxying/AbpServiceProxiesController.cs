@@ -6,9 +6,10 @@ using Microsoft.Extensions.Logging.Abstractions;
 
 namespace Geek.DynamicJSProxies.AspNetCore.Mvc.Proxying
 {
+   
     public class AbpServiceProxiesController : Controller
     {
-        [HttpGet]
+        [HttpGet("AbpService/GetAll")]
         [Produces("application/x-javascript")]
         public ContentResult GetAll([FromQuery]ApiProxyGenerationModel model,[FromServices] ApiProxyScriptManager _proxyScriptManager)
         {

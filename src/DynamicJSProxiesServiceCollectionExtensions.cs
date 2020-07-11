@@ -15,7 +15,6 @@ namespace Geek.DynamicJSProxies
                 .AddSingleton<ApiProxyScriptingConfiguration>()
                 .AddSingleton<ApiProxyScriptManager>()
                 .AddTransient<JQueryProxyScriptGenerator>();
-
             return services;
         }
     }

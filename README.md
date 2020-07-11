@@ -48,7 +48,7 @@ public void ConfigureServices(IServiceCollection services)
 
 运行浏览器以后访问 `<你的项目地址>/AbpServiceProxies/GetAll`，将会看到为我们 `Geek.DynamicJSProxies` 生成的 
 
-本快速入门 Demo 地址：[点我](/samples/Panda.DynamicWebApiSample)
+本快速入门 Demo 地址：[点我](/samples/Geek.DynamicJSProxies.Samples)
 
 ## 2.更进一步
 
@@ -132,7 +132,6 @@ ASP.NET样板可以公开动态api控制器作为角js服务。请考虑以下�
 <script src="~/Abp/Framework/scripts/libs/angularjs/abp.ng.js"></script>
 <script src="~/api/AbpServiceProxies/GetAll?type=angular"></script>
 ```
-（9）`[DynamicWebApi]` 特性因为可被继承，所以为了父类被误识别，禁止放在除抽象类、接口以外的父类上。
 
 ## 3.配置
 
