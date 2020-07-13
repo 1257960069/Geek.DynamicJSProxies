@@ -147,7 +147,7 @@ ASP.NET样板可以公开动态api控制器作为角js服务。请考虑以下�
 
 ## 4.疑难解答
 
-若遇到问题，可使用 [Issues](https://github.com/dotnetauth/Panda.DynamicWebApi/issues) 进行提问。
+若遇到问题，可使用 [Issues](https://github.com/1257960069/Geek.DynamicJSProxies/issues) 进行提问。
 
 ## 5.引用项目说明
 
